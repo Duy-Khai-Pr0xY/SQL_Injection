@@ -6,6 +6,8 @@
 #### có thể trong câu lệnh truy vấn dev kh cùng (select username,passwd from user where username = "$username" and passwd = "$passwd") mà lại dùng (select username,passwd from user where username = "$username" sau đó mới đi so sánh passwd sau) thì lúc này dấu -- - và dấu OR vô nghĩa
 #### thao túng (làm giả) kết quả trả về có thể dùng select a,b union select 1,2,.....
 #### có thể không phải là 1,2 mà nên dùng NULL,NULL,....
+#### thử từng cột xem cái nào là string cột nào là interger
+
 # String concatenation
 ####  Oracle 	'foo'||'bar' 
 ####  Microsoft 	'foo'+'bar' 
